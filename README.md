@@ -48,13 +48,19 @@ x86 | x86_64
 
 ### Build
 
+python2
 ```
 $ git clone https://github.com/citronneur/rdpy.git rdpy
 $ pip install twisted pyopenssl qt4reactor service_identity rsa pyasn1
 $ python rdpy/setup.py install
 ```
+python3
+```
+$ pip install twisted pyopenssl service_identity rsa pyasn1
+$ python setup.py install
+```
 
-Or use PIP:
+Or use PIP (python2 only):
 ```
 $ pip install rdpy
 ```
